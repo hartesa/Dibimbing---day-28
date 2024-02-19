@@ -1,0 +1,55 @@
+
+.navbar {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+h1 {
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: olive;
+}
+ a:hover {
+    color: burlywood;
+}
+
+
+button {
+    background-color: burlywood;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: brown;
+}
+
+img {
+    border-radius: 50px;
+}
+
+.home, .menu, .menu-detail {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    max-width: 400px;
+}
